@@ -8,11 +8,11 @@ function setup() {
 function draw() {
   // Put drawings here
   if (mouseIsPressed) {
-    fill(45);
+    fill(255);
   } else {
-    fill(4);
+    fill(69);
   }
-  ellipse(mouseX, mouseY, 80, 80);
+  ellipse(mouseX, mouseY, 50, 80);
 }
 
 // This Redraws the Canvas when resized
