@@ -1,7 +1,7 @@
 {
   "name": "circles",
   "version": "1.0.0",
-  "description": "First p5.js exercise",
+  "description": "This sandbox is imported from Github",
   "main": "sketch.js",
   "scripts": {
     "start": "serve",
