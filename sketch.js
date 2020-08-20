@@ -8,7 +8,7 @@ function setup() {
 function draw() {
   // Put drawings here
   if (mouseIsPressed) {
-    fill(45);
+    fill(255, 0, 0);
   } else {
     fill(215);
   }
@@ -16,6 +16,6 @@ function draw() {
 }
 
 // This Redraws the Canvas when resized
-windowResized = function() {
+windowResized = function () {
   resizeCanvas(windowWidth, windowHeight);
 };
